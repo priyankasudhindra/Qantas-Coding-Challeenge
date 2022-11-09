@@ -21,7 +21,7 @@ to ‘flight scheduler’ system once the push notification is sent to the passe
 devices
 3. All the device related details corresponding to a booking will be available in the
 below endpoint
-GET https://api.airline.com/subscriptions/{ bookingid}/devicedetails
+GET https://api.airline.com/subscriptions/{bookingid}/devicedetails
 
 Assumptions
 1. The subscription is expected to be received from the airline app anytime a booking is
